@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller1.SellControllar">
+   <top>
+      <AnchorPane prefHeight="74.0" prefWidth="600.0" style="-fx-background-color: #2E8B57;" BorderPane.alignment="CENTER">
+         <children>
+            <Label layoutX="34.0" layoutY="25.0" text="SELL ECOBRICKS" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="36.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+   </top>
+   <left>
+      <AnchorPane prefHeight="524.0" prefWidth="206.0" style="-fx-background-color: #0F4025;" BorderPane.alignment="CENTER">
+         <children>
+            <Button fx:id="back" layoutX="54.0" layoutY="12.0" mnemonicParsing="false" onAction="#back" prefHeight="26.0" prefWidth="62.0" stylesheets="@../CSS/maniue.css" text="Back" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="16.0" />
+               </font></Button>
+            <Button layoutX="54.0" layoutY="154.0" mnemonicParsing="false" stylesheets="@../CSS/maniue.css" text="Your Sales" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="16.0" />
+               </font></Button>
+            <Button layoutX="54.0" layoutY="101.0" mnemonicParsing="false" stylesheets="@../CSS/maniue.css" text="Sell Now" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="16.0" />
+               </font></Button>
+         </children>
+      </AnchorPane>
+   </left>
+   <center>
+      <AnchorPane prefHeight="308.0" prefWidth="578.0" BorderPane.alignment="CENTER">
+         <children>
+            <Label layoutX="104.0" layoutY="215.0" prefHeight="18.0" prefWidth="255.0" text="sell your own ecobricks" textFill="#fffdfd">
+               <font>
+                  <Font size="24.0" />
+               </font>
+            </Label>
+            <Label layoutX="63.0" layoutY="250.0" text="Buying ecobrick is not aware that you already love nature because ecobrick is " textFill="WHITE" />
+            <Label layoutX="159.0" layoutY="268.0" text="made with processed inorganic waste" textFill="WHITE" />
+         </children>
+      </AnchorPane>
+   </center>
+</BorderPane>

@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller1.AfterLogin">
+   <top>
+      <AnchorPane prefHeight="80.0" prefWidth="800.0" style="-fx-background-color: #2e8b57;" BorderPane.alignment="CENTER">
+         <children>
+            <Text fill="WHITE" layoutX="17.0" layoutY="52.0" strokeType="OUTSIDE" strokeWidth="0.0" text="rE-Brix">
+               <font>
+                  <Font name="System Bold" size="42.0" />
+               </font>
+            </Text>
+            <ImageView fitHeight="37.0" fitWidth="55.0" layoutX="155.0" layoutY="19.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../Photo/LOGO.png" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+   </top>
+   <bottom>
+      <AnchorPane layoutY="344.0" prefHeight="530.0" prefWidth="800.0" BorderPane.alignment="CENTER">
+         <children>
+            <ImageView fitHeight="165.0" fitWidth="269.0" layoutX="335.0" layoutY="283.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../Photo/image%204.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="165.0" fitWidth="249.0" layoutX="69.0" layoutY="283.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../Photo/image%206.png" />
+               </image>
+            </ImageView>
+            <Label layoutX="355.0" layoutY="337.0" text="YOUR POINT" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="35.0" />
+               </font>
+            </Label>
+            <Label layoutX="354.0" layoutY="378.0" text="INTO" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="35.0" />
+               </font>
+            </Label>
+            <Label layoutX="353.0" layoutY="297.0" text="EXCHANGE" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="35.0" />
+               </font>
+            </Label>
+            <Button fx:id="buy" layoutX="69.0" layoutY="428.0" mnemonicParsing="false" onAction="#buy" prefHeight="71.0" prefWidth="243.0" stylesheets="@../CSS/maniue.css" textFill="WHITE">
+               <font>
+                  <Font name="System Bold Italic" size="24.0" />
+               </font>
+            </Button>
+            <Button fx:id="exchange" layoutX="335.0" layoutY="426.0" mnemonicParsing="false" onAction="#exchange" prefHeight="71.0" prefWidth="243.0" stylesheets="@../CSS/maniue.css" textFill="WHITE">
+               <font>
+                  <Font name="System Bold Italic" size="30.0" />
+               </font>
+            </Button>
+            <Button fx:id="go" layoutX="334.0" layoutY="55.0" mnemonicParsing="false" onAction="#CityCart" prefHeight="212.0" prefWidth="407.0" stylesheets="@../CSS/maniue.css" textFill="WHITE">
+               <font>
+                  <Font name="System Bold Italic" size="26.0" />
+               </font>
+            </Button>
+            <ImageView fitHeight="123.0" fitWidth="92.0" layoutX="629.0" layoutY="78.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../Photo/money%20and%20pie%20chart.png" />
+               </image>
+            </ImageView>
+            <Text fill="WHITE" layoutX="614.0" layoutY="249.0" strokeType="OUTSIDE" strokeWidth="0.0" text="CHART">
+               <font>
+                  <Font name="System Bold" size="35.0" />
+               </font>
+            </Text>
+            <Label fx:id="user" layoutX="68.0" layoutY="18.0" prefHeight="18.0" prefWidth="232.0" text="Label">
+               <font>
+                  <Font name="System Bold Italic" size="14.0" />
+               </font></Label>
+            <Button fx:id="profile" layoutX="14.0" layoutY="8.0" mnemonicParsing="false" onAction="#profile" prefHeight="29.0" prefWidth="37.0" style="-fx-background-color: #2e8b57; -fx-background-radius: 70;">
+               <graphic>
+                  <ImageView fitHeight="45.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true" style="-fx-background-color: #2e8b57;">
+                     <image>
+                        <Image url="@../Photo/personal.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+            <ImageView fitHeight="164.0" fitWidth="246.0" layoutX="68.0" layoutY="56.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../Photo/image%202.png" />
+               </image>
+            </ImageView>
+            <Button fx:id="sell" layoutX="68.0" layoutY="196.0" mnemonicParsing="false" onAction="#sell" prefHeight="71.0" prefWidth="243.0" stylesheets="@../CSS/maniue.css" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="25.0" />
+               </font>
+            </Button>
+            <Label layoutX="85.0" layoutY="101.0" text="SELL" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="35.0" />
+               </font>
+            </Label>
+            <Label layoutX="83.0" layoutY="151.0" text="SOME" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="35.0" />
+               </font>
+            </Label>
+            <Label layoutX="85.0" layoutY="204.0" text="ECOBRICKS!" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="35.0" />
+               </font>
+            </Label>
+            <Label layoutX="85.0" layoutY="326.0" prefHeight="65.0" prefWidth="69.0" text="BUY" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="35.0" />
+               </font>
+            </Label>
+            <Label layoutX="85.0" layoutY="381.0" text="SOME" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="35.0" />
+               </font>
+            </Label>
+            <Label layoutX="86.0" layoutY="436.0" text="ECOBRICKS!" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="35.0" />
+               </font>
+            </Label>
+            <ImageView fitHeight="143.0" fitWidth="269.0" layoutX="347.0" layoutY="89.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../Photo/man%20lying%20on%20stomach%20with%20laptop.png" />
+               </image>
+            </ImageView>
+            <Label layoutX="355.0" layoutY="433.0" text="MONEY!" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="40.0" />
+               </font>
+            </Label>
+            <ImageView fitHeight="180.0" fitWidth="148.0" layoutX="613.0" layoutY="302.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../Photo/friendly%20robot%20assistant%20waving.png" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+   </bottom>
+</BorderPane>

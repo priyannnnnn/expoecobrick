@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller1.SignUp">
+   <children>
+      <AnchorPane layoutY="89.0" prefHeight="512.0" prefWidth="206.0" style="-fx-background-color: #0F4025;">
+         <children>
+            <Button layoutX="54.0" layoutY="13.0" mnemonicParsing="false" prefHeight="37.0" prefWidth="62.0" stylesheets="@../CSS/maniue.css" text="Back" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="16.0" />
+               </font></Button>
+            <Button layoutX="57.0" layoutY="79.0" mnemonicParsing="false" prefHeight="37.0" prefWidth="122.0" stylesheets="@../CSS/maniue.css" text="Personal Info" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="16.0" />
+               </font></Button>
+            <Button layoutX="58.0" layoutY="200.0" mnemonicParsing="false" prefHeight="37.0" prefWidth="85.0" stylesheets="@../CSS/maniue.css" text="Security" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="16.0" />
+               </font></Button>
+            <Button layoutX="57.0" layoutY="136.0" mnemonicParsing="false" prefHeight="37.0" prefWidth="103.0" stylesheets="@../CSS/maniue.css" text="Connected" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="16.0" />
+               </font></Button>
+            <Button layoutX="54.0" layoutY="429.0" mnemonicParsing="false" prefHeight="37.0" prefWidth="72.0" stylesheets="@../CSS/maniue.css" text="About" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="16.0" />
+               </font></Button>
+            <ImageView fitHeight="23.0" fitWidth="18.0" layoutX="22.0" layoutY="24.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../Photo/back.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="28.0" fitWidth="38.0" layoutX="18.0" layoutY="84.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../Photo/personal.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="28.0" fitWidth="38.0" layoutX="17.0" layoutY="141.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../Photo/connected.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="28.0" fitWidth="38.0" layoutX="16.0" layoutY="205.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../Photo/security.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="28.0" fitWidth="38.0" layoutX="15.0" layoutY="434.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../Photo/about.png" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutY="-1.0" prefHeight="90.0" prefWidth="800.0" style="-fx-background-color: #2E8B57;">
+         <children>
+            <Label layoutX="90.0" layoutY="18.0" prefHeight="53.0" text="Profile" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="36.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="206.0" layoutY="89.0" prefHeight="505.0" prefWidth="602.0">
+         <children>
+            <Label layoutX="11.0" layoutY="6.0" text="Name ">
+               <font>
+                  <Font name="System Bold Italic" size="16.0" />
+               </font>
+            </Label>
+            <TextField fx:id="tfName" layoutX="4.0" layoutY="31.0" prefHeight="28.0" prefWidth="576.0" promptText="Name" style="-fx-background-color: A7CBB7;" />
+            <Label layoutX="13.0" layoutY="240.0" text="Password">
+               <font>
+                  <Font name="System Bold Italic" size="16.0" />
+               </font>
+            </Label>
+            <Label layoutX="13.0" layoutY="178.0" text="E-mail">
+               <font>
+                  <Font name="System Bold Italic" size="16.0" />
+               </font>
+            </Label>
+            <Label layoutX="11.0" layoutY="120.0" text="Phone Number">
+               <font>
+                  <Font name="System Bold Italic" size="16.0" />
+               </font>
+            </Label>
+            <Label layoutX="10.0" layoutY="64.0" text="Adress">
+               <font>
+                  <Font name="System Bold Italic" size="16.0" />
+               </font>
+            </Label>
+            <TextField fx:id="tfmail" layoutX="6.0" layoutY="207.0" prefHeight="26.0" prefWidth="576.0" promptText="Phone Number" style="-fx-background-color: A7CBB7;" />
+            <TextField fx:id="tfPhoneNumber" layoutX="6.0" layoutY="146.0" prefHeight="26.0" prefWidth="576.0" promptText="Brithday" style="-fx-background-color: A7CBB7;" />
+            <TextField fx:id="tfAddres" layoutX="5.0" layoutY="89.0" prefHeight="26.0" prefWidth="576.0" promptText="Adress" style="-fx-background-color: A7CBB7;" />
+            <Button fx:id="regButton" layoutX="525.0" layoutY="417.0" mnemonicParsing="false" onAction="#register" stylesheets="@../CSS/maniue.css" text="Save">
+               <font>
+                  <Font name="System Bold" size="16.0" />
+               </font></Button>
+            <PasswordField fx:id="pfPassword" layoutX="6.0" layoutY="268.0" prefHeight="26.0" prefWidth="576.0" />
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>
